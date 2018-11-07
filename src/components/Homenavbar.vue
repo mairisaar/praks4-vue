@@ -5,12 +5,12 @@
       <h1>Loomade varjupaik</h1>
       <nav>
         <ul>
-          <li><router-link to="/">Avaleht</router-link>
+          <li><router-link to="/">Avaleht</router-link></li>
           <li><router-link to="/found">Loomad varjupaigas</router-link></li>
           <li><router-link to="/lost">Kaotatud loomad</router-link></li>
-          <li><router-link to="/">Toeta varjupaika</router-link></li>
-          <li><router-link to="/">Varjupaigast</router-link></li>
-          <li><router-link to="/">Kontakt</router-link></li>
+          <li><router-link to="/donate">Toeta varjupaika</router-link></li>
+          <li><router-link to="/about">Varjupaigast</router-link></li>
+          <li><a href="#contact">Kontakt</a></li>
         </ul>
       </nav>
     </div>
