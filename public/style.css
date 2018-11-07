@@ -1,0 +1,387 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.other-page {
+	height: 60px;
+	background-color: #B07C56;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	/*position: fixed;
+	background-color: #4D3F35;
+	opacity: 0.4;*/
+}
+
+.menu h1 {
+	font-family: 'Merienda', cursive;
+	font-weight: bold;
+	min-width: 300px;
+	max-width: 50vw;
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
+
+.menu li {
+	display: inline-block;
+	max-width: 150px;
+	height: 60px;
+	text-align: center;
+	padding: 10px 1vw;
+
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Krub', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+}
+
+nav {
+	height: 60px;
+	/*float: right;*/
+	max-width: 80vw;
+	text-align: center;
+}
+
+.top {
+	height: 100vh;
+}
+
+.page-content {
+	max-width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-content h1 {
+	font-family: 'Krub', sans-serif;
+	font-size: 48px;
+	line-height: 62px;
+	font-weight: normal;
+	height: 160px;
+	padding: 110px 0px;
+}
+
+.content p {
+	font-family: 'Krub', sans-serif;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.adress {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.info {
+	float: left;
+	width: 30%;
+}
+
+.map {
+	float: right;
+	width: 60%;
+	border: 0;
+}
+
+.map-content {
+	width: 600px;
+	height: 600px;
+}
+
+/*siit algab leitud loomade lehe stiilikirjeldus */
+
+.found-c {
+	display: grid;
+	grid-template-columns: auto auto auto; 
+}
+
+.found-info {
+	height: 500px;
+	width: 360px;
+	display: block;
+}
+
+.found-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.found-img-container {
+	height: 300px;
+	width: 300px;
+	margin-left: 30px;
+	
+}
+
+.found-text {
+	margin-left: 30px;
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.animal-name {
+	font-family: 'Krub', sans-serif;
+	font-size: 24px;
+	margin-top: 10px;
+	line-height: 31px;
+	font-weight: normal;
+}
+
+.found-date {
+	margin-top: 10px;
+}
+
+.found-c a {
+	text-decoration: none; 
+	color: #000;
+}
+
+/*algab kadunud loomade lehe stiil*/
+
+.lost-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	margin-right: auto;
+	margin-left: 0;
+}
+
+.ads {
+	margin-top: 30px;
+	/*display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	margin-left: 0;
+	margin-right: auto;*/
+}
+
+.lost-add-container {
+	width: 360px;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.add-text {
+	width: 180px;
+}
+
+.add-date, .add-contact {
+	margin-bottom: 15px;
+}
+
+.add-date, .add-contact, .add-info{
+	font-family: 'Krub', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	margin-left: 10px;
+}
+
+.lost-img-container {
+	height: 180px;
+	width: 180px;
+}
+
+.lost-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.announce {
+	height: 1110px;
+	width: 60%;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.add-heading {
+	width: 100%;
+	height: 110px;
+	display: flex;
+	align-items: center;
+}
+
+.add-heading h2 {
+	font-family: 'Krub', sans-serif;
+	font-size: 36px;
+	font-weight: normal;	
+	margin-left: 34px;
+}
+
+.add-fields {
+	width: 100%;
+	height: 1000px;
+	background-color: #F3F2F2;
+}
+
+.date, .owner-contact, .add-info, .add-img {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	justify-content: space-around;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+}
+
+.date label, .owner-contact label, .add-info label, .add-img label {
+	font-size: 18px;
+	margin-top: 60px;
+	padding-bottom: 10px;
+}
+
+.date input, .owner-contact input {
+	line-height: 23px;
+	height: 65px;
+	border: solid 1px #5A5A5A;
+}
+
+.add-info input {
+	line-height: 23px;
+	height: 260px;
+	border: solid 1px #5A5A5A;
+}
+
+.add-button-container {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.add-button {
+	width: 300px;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #B07C56;
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	border: solid 1px #ffffff;
+	filter: drop-shadow(0px 4px 4px #909090);
+}
+
+.add-button-container a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*Siit algab looma profiililehe stiilikirjeldus*/
+
+.profile-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+}
+
+.profile-img-container {
+	width: 50vw;
+	height: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile-text-container {
+	width: 30vw;
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	margin-left: 5vw;
+	margin-right: auto;
+}
+
+.profile-name {
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 5vw;
+}
+
+.profile-text {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+
+/*Siit algavad toetamise ja vp kirjelduse stiilikirjeldus*/
+
+.content-text {
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-text p {
+	margin-bottom: 30px;
+}
+
+/*Siit algab jaluse stiilikirjeldus*/
+
+footer {
+	height: 100px;
+	width: 100vw;
+	text-align: center;
+	margin-top: 110px;
+}
+
+footer li {
+	padding-top: 20px;
+	display: inline-block;
+	text-align: center;
+	height: 60px;
+	width: 200px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-family: 'Krub', sans-serif;
+	text-align: center;
+
+}
+
+.logo a {
+	font-family: 'Merienda', cursive;
+	font-weight: bold;
+}
