@@ -50,3 +50,44 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+	.profile-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+}
+
+.profile-img-container {
+	width: 50vw;
+	height: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.profile-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile-text-container {
+	width: 30vw;
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	margin-left: 5vw;
+	margin-right: auto;
+}
+
+.profile-name {
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 5vw;
+}
+
+.profile-text {
+	font-size: 18px;
+	line-height: 22px;
+}
+</style>

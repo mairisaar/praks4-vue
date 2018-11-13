@@ -13,9 +13,9 @@
 <p>Oleme avatud iga päev 10 - 18.</p>
 
 <div class="address">
-<p><i class="fas fa-phone-square"></i> 555 12 345</p>
-<p><i class="fas fa-envelope-open"></i> info@varjupaik.ee</p>
-<p><i class="fas fa-home"></i> Kopli 1a, Tartu</p>
+<p>555 12 345</p>
+<p>info@varjupaik.ee</p>
+<p>Kopli 1a, Tartu</p>
 </div>
 <p>Bussid 4, 9, 11 ja 12, peatus Alasi.</p>
 </div>
@@ -49,3 +49,36 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+	.content p {
+	font-family: 'Krub', sans-serif;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.adress {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.info {
+	float: left;
+	width: 30%;
+	line-height: 200%;
+}
+
+.map {
+	float: right;
+	width: 60%;
+	border: 0;
+}
+
+.map-content {
+	width: 60vw;
+	height: 60vw;
+	max-width: 580px;
+	max-height: 580px;
+}
+</style>

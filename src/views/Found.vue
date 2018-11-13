@@ -36,7 +36,7 @@
 
       </router-link>
 
-      <a href="">
+      <router-link to="/profile">
         <div class="found-info">
 
           <div class="found-img-container"><img class="found-img" src="../assets/1.jpg" alt="An image of animal in shelter"></div>
@@ -61,9 +61,9 @@
 
         </div>
 
-      </a>
+      </router-link>
 
-      <a href="" class="animal-profile">
+      <router-link to="/profile">
         <div class="found-info">
 
           <div class="found-img-container"><img class="found-img" src="../assets/1.jpg" alt="An image of animal in shelter"></div>
@@ -88,7 +88,7 @@
 
         </div>
 
-      </a>
+      </router-link>
 
     </div>
 
@@ -111,3 +111,55 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+
+  .found-c {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.found-info {
+  height: 500px;
+  width: 360px;
+  display: block;
+}
+
+.found-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.found-img-container {
+  height: 300px;
+  width: 300px;
+  margin-left: 30px;
+
+}
+
+.found-text {
+  margin-left: 30px;
+  font-family: 'Krub', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.animal-name {
+  font-family: 'Krub', sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+  line-height: 31px;
+  font-weight: normal;
+}
+
+.found-date {
+  margin-top: 10px;
+}
+
+.found-c a {
+  text-decoration: none;
+  color: #000;
+}
+
+</style>

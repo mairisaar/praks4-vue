@@ -4,14 +4,20 @@
     <div class="menu">
       <h1>Loomade varjupaik</h1>
       <nav>
-        <ul>
-          <li><router-link to="/">Avaleht</router-link></li>
-          <li><router-link to="/found">Loomad varjupaigas</router-link></li>
-          <li><router-link to="/lost">Kaotatud loomad</router-link></li>
-          <li><router-link to="/donate">Toeta varjupaika</router-link></li>
-          <li><router-link to="/about">Varjupaigast</router-link></li>
-          <li><a href="#contact">Kontakt</a></li>
-        </ul>
+        <label class="burger" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+
+        <div class="menu-links">
+
+          <ul>
+            <li><router-link to="/">Avaleht</router-link></li>
+            <li><router-link to="/found">Loomad varjupaigas</router-link></li>
+            <li><router-link to="/lost">Kaotatud loomad</router-link></li>
+            <li><router-link to="/donate">Toeta varjupaika</router-link></li>
+            <li><router-link to="/about">Loomade varjupaigast</router-link></li>
+            <li><router-link to="/">Kontakt</router-link></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
@@ -21,7 +27,7 @@
 
 <script>
 export default {
-  name: 'Homenavbar',
+  name: 'homenavbar',
 
 };
 </script>

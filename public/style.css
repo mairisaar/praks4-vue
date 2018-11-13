@@ -10,53 +10,89 @@
 	clear: both;
 }
 
+/*.front-page {
+	position: absolute;
+	background-color: #4D3F35;
+	background-image: 
+		linear-gradient(
+			rgba(77, 63, 53, 0.4),
+			rgba(77, 63, 53, 0.4)
+			),
+		url("img/hero2.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+}
+
 .other-page {
+	position: relative;
 	height: 60px;
-	background-color: #B07C56;
+	background-color: #5b7851;
+}*/
+
+.burger {
+	margin: 0px 5vw 0 0;
+	font-size: 26px;
+	line-height: 60px;
+	float: right;
+	display: none;
+	width: 26px;
+	color: #ffffff;
+}
+
+#toggle {
+	display: none;
 }
 
 .menu {
 	display: flex;
 	justify-content: space-between;
-	/*position: fixed;
-	background-color: #4D3F35;
-	opacity: 0.4;*/
 }
 
 .menu h1 {
 	font-family: 'Merienda', cursive;
 	font-weight: bold;
-	min-width: 300px;
-	max-width: 50vw;
-	height: 60px;
-	text-align: center;
+	min-width: 35%;
+	max-width: 50%;
+	text-align: left;
 	color: #fff;
 	font-size: 24px;
+	padding-left: 10px;
 }
 
-.menu li {
-	display: inline-block;
-	max-width: 150px;
-	height: 60px;
+.menu-links {
+	display: flex;
+	justify-content: space-between;
 	text-align: center;
-	padding: 10px 1vw;
-
+	padding-right: 2vw;
 }
 
-.menu a {
+.menu-links li {
+	margin-top: 10px;
+	display: inline-block;
+	max-width: 10vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu-links a {
 	text-decoration: none;
 	color: #fff;
 	font-family: 'Krub', sans-serif;
 	font-size: 18px;
 	font-weight: normal;
-	text-align: center;
+}
+
+.menu-links a:hover {
+	color: #95ff7d;
 }
 
 nav {
 	height: 60px;
-	/*float: right;*/
-	max-width: 80vw;
-	text-align: center;
+	max-width: 60%;
 }
 
 .top {
@@ -78,14 +114,12 @@ nav {
 	padding: 110px 0px;
 }
 
-.content p {
+/*.content p {
 	font-family: 'Krub', sans-serif;
 	font-size: 18px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
 
 .adress {
 	padding-top: 10px;
@@ -95,6 +129,7 @@ nav {
 .info {
 	float: left;
 	width: 30%;
+	line-height: 200%;
 }
 
 .map {
@@ -104,13 +139,15 @@ nav {
 }
 
 .map-content {
-	width: 600px;
-	height: 600px;
-}
+	width: 60vw;
+	height: 60vw;
+	max-width: 580px;
+	max-height: 580px;
+}*/
 
 /*siit algab leitud loomade lehe stiilikirjeldus */
 
-.found-c {
+/*.found-c {
 	display: grid;
 	grid-template-columns: auto auto auto; 
 }
@@ -156,11 +193,11 @@ nav {
 .found-c a {
 	text-decoration: none; 
 	color: #000;
-}
+}*/
 
 /*algab kadunud loomade lehe stiil*/
 
-.lost-container {
+/*.lost-container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -171,11 +208,6 @@ nav {
 
 .ads {
 	margin-top: 30px;
-	/*display: flex;
-	flex-direction: column;
-	max-width: 100%;
-	margin-left: 0;
-	margin-right: auto;*/
 }
 
 .lost-add-container {
@@ -194,7 +226,7 @@ nav {
 	margin-bottom: 15px;
 }
 
-.add-date, .add-contact, .add-info{
+.add-date, .add-contact, .add-info-t{
 	font-family: 'Krub', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -214,7 +246,7 @@ nav {
 }
 
 .announce {
-	height: 1110px;
+	height: 1250px;
 	width: 60%;
 	margin-right: 0;
 	margin-left: auto;
@@ -236,7 +268,7 @@ nav {
 
 .add-fields {
 	width: 100%;
-	height: 1000px;
+	height: 1100px;
 	background-color: #F3F2F2;
 }
 
@@ -255,6 +287,9 @@ nav {
 	font-size: 18px;
 	margin-top: 60px;
 	padding-bottom: 10px;
+	color: #000;
+	width: 100%;
+	display: block;
 }
 
 .date input, .owner-contact input {
@@ -279,12 +314,13 @@ nav {
 }
 
 .add-button {
-	width: 300px;
+	max-width: 30vw;
+	min-width: 200px;
 	height: 65px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #B07C56;
+	background-color: #5b7851;
 	font-family: 'Krub', sans-serif;
 	font-weight: normal;
 	font-size: 24px;
@@ -295,11 +331,11 @@ nav {
 .add-button-container a{
 	text-decoration: none;
 	color: #fff;
-}
+}*/
 
 /*Siit algab looma profiililehe stiilikirjeldus*/
 
-.profile-container {
+/*.profile-container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -336,7 +372,7 @@ nav {
 .profile-text {
 	font-size: 18px;
 	line-height: 22px;
-}
+}*/
 
 
 /*Siit algavad toetamise ja vp kirjelduse stiilikirjeldus*/
@@ -357,7 +393,7 @@ nav {
 
 /*Siit algab jaluse stiilikirjeldus*/
 
-footer {
+/*footer {
 	height: 100px;
 	width: 100vw;
 	text-align: center;
@@ -378,10 +414,147 @@ footer a {
 	font-size: 18px;
 	font-family: 'Krub', sans-serif;
 	text-align: center;
-
 }
 
 .logo a {
 	font-family: 'Merienda', cursive;
 	font-weight: bold;
+}*/
+
+@media screen and (max-width: 1180px) {
+	
+	.burger {
+		display: block;
+		cursor: pointer;
+	}
+
+	.menu-links {
+		margin-top: 60px;
+		text-align: center;
+		display: none;
+		float: right;
+		padding-right: 0px;
+	}
+
+	.menu-links li {
+		min-width: 100vw;
+		display: block;
+		border-bottom: 1px solid #ffffff;
+		height: 60px;
+		padding-top: 20px;
+	}
+
+	#toggle:checked + .menu-links {
+		display: block;
+	}
+
+	.other-page .menu-links {
+		margin-top: 1px;
+		height: 421px;
+		background-color: #5b7851;
+		opacity: 0.8;
+		z-index: 10;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.info {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.found-c {
+	display: grid;
+	grid-template-columns: auto auto; 
+	
+	}
+
+	.lost-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.announce {
+		width: 50vw;
+		margin-left: 0;
+	}
+}
+
+
+@media screen and (max-width: 787px) {
+	
+	footer li {
+		display: block;
+		width: 100vw;
+	}
+
+	.found-c {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	}
+
+	.found-info {
+		width: 100%;
+	}
+
+	.found-img-container, .found-text {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu h1 {
+		max-width: 70vw;
+	}
+
+	.lost-container {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.announce {
+	height: 1110px;
+	min-width: 80vw;
+	max-width: 100%;
+	margin-left: 0;
+	margin-top: 100px;
+	}
+
+	.profile-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.profile-text-container {
+		width: 100%;
+	}
+
+	.profile-name {
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.menu h1 {
+		padding-right: 30px;
+
+	}
+
+	footer li {
+		display: block;
+		width: 100vw;
+	}
+
+	.add-fields {
+		height: 1140px;
+	}
+
+	.announce {
+		height: 1180px;
+	}
 }
