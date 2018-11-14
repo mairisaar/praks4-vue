@@ -39,3 +39,21 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+
+.content-text {
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-text p {
+	margin-bottom: 30px;
+}
+
+</style>
