@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style scoped>
-	
+
 .content-text {
 	font-family: 'Krub', sans-serif;
 	font-weight: normal;
