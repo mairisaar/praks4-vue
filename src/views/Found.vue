@@ -12,7 +12,8 @@
       <router-link to="/profile">
         <div class="found-info">
 
-          <div class="found-img-container"><img class="found-img" src="../assets/1.jpg" alt="An image of animal in shelter"></div>
+          <div class="found-img-container"><img class="found-img"
+            src="../assets/1.jpg" alt="An image of animal in shelter"></div>
 
           <div class="found-text">
 
@@ -39,7 +40,8 @@
       <router-link to="/profile">
         <div class="found-info">
 
-          <div class="found-img-container"><img class="found-img" src="../assets/1.jpg" alt="An image of animal in shelter"></div>
+          <div class="found-img-container"><img class="found-img"
+            src="../assets/1.jpg" alt="An image of animal in shelter"></div>
 
           <div class="found-text">
 
@@ -66,7 +68,8 @@
       <router-link to="/profile">
         <div class="found-info">
 
-          <div class="found-img-container"><img class="found-img" src="../assets/1.jpg" alt="An image of animal in shelter"></div>
+          <div class="found-img-container"><img class="found-img"
+            src="../assets/1.jpg" alt="An image of animal in shelter"></div>
 
           <div class="found-text">
 

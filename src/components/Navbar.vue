@@ -10,12 +10,18 @@
         <div class="menu-links">
 
           <ul>
-            <li><router-link to="/">Avaleht</router-link></li>
-            <li><router-link to="/found">Loomad varjupaigas</router-link></li>
-            <li><router-link to="/lost">Kaotatud loomad</router-link></li>
-            <li><router-link to="/donate">Toeta varjupaika</router-link></li>
-            <li><router-link to="/about">Loomade varjupaigast</router-link></li>
-            <li><router-link to="/">Kontakt</router-link></li>
+            <li><router-link exact-active-class="active" 
+            to="/">Avaleht</router-link></li>
+            <li><router-link exact-active-class="active" 
+            to="/found">Loomad varjupaigas</router-link></li>
+            <li><router-link exact-active-class="active" 
+            to="/lost">Kaotatud loomad</router-link></li>
+            <li><router-link exact-active-class="active" 
+            to="/donate">Toeta varjupaika</router-link></li>
+            <li><router-link exact-active-class="active" 
+            to="/about">Loomade varjupaigast</router-link></li>
+            <li><router-link exact-active-class="active" 
+            to="/">Kontakt</router-link></li>
           </ul>
         </div>
       </nav>

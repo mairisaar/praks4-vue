@@ -1,136 +1,138 @@
 <template>
 <div class="lost">
-	<Navbar />
+<Navbar />
 
-	<section class="page-content">
+<section class="page-content">
 
-		<h1>Kadunud loomad</h1>
+<h1>Kadunud loomad</h1>
 
-		<div class="lost-container">
+<div class="lost-container">
 
-			<div class="ads">
-				<table id="output">
-                    <tr>
-                        <td class="lost-img-container"><img class="lost-img" src="../assets/1.jpg" alt="An image of lost pet."></td>
-                        <td id="add-text">
-	                        <div class="add-date">
-								<p>28.09.2018</p>
-							</div>
+<div class="ads">
+<table id="output">
+<tr>
+<td class="lost-img-container"><img class="lost-img"
+src="../assets/1.jpg" alt="An image of lost pet."></td>
+<td id="add-text">
+<div class="add-date">
+<p>28.09.2018</p>
+</div>
 
-							<div class="add-contact">
-								<p>Leidmisest teata: </p>
-								<p>koer.kadunud@gmail.com</p>
-							</div>
+<div class="add-contact">
+<p>Leidmisest teata: </p>
+<p>koer.kadunud@gmail.com</p>
+</div>
 
-							<div class="add-info">
-								<p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
-							</div>
-                        </td>
-                    </tr>
+<div class="add-info">
+<p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
+</div>
+</td>
+</tr>
 
-                    <tr>
-                        <td class="lost-img-container"><img class="lost-img" src="../assets/1.jpg" alt="An image of lost pet."></td>
-                        <td id="add-text">
-	                        <div class="add-date">
-								<p>28.09.2018</p>
-							</div>
+<tr>
+<td class="lost-img-container"><img class="lost-img"
+src="../assets/1.jpg" alt="An image of lost pet."></td>
+<td id="add-text">
+<div class="add-date">
+<p>28.09.2018</p>
+</div>
 
-							<div class="add-contact">
-								<p>Leidmisest teata: </p>
-								<p>koer.kadunud@gmail.com</p>
-							</div>
+<div class="add-contact">
+<p>Leidmisest teata: </p>
+<p>koer.kadunud@gmail.com</p>
+</div>
 
-							<div class="add-info">
-								<p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
-							</div>
-                        </td>
-                    </tr>
+<div class="add-info">
+<p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
+</div>
+</td>
+</tr>
 
-                    <tr>
-                        <td class="lost-img-container"><img class="lost-img" src="../assets/1.jpg" alt="An image of lost pet."></td>
-                        <td id="add-text">
-	                        <div class="add-date">
-								<p>28.09.2018</p>
-							</div>
+<tr>
+<td class="lost-img-container"><img class="lost-img"
+src="../assets/1.jpg"
+alt="An image of lost pet."></td>
+<td id="add-text">
+<div class="add-date">
+<p>28.09.2018</p>
+</div>
 
-							<div class="add-contact">
-								<p>Leidmisest teata: </p>
-								<p>koer.kadunud@gmail.com</p>
-							</div>
+<div class="add-contact">
+<p>Leidmisest teata: </p>
+<p>koer.kadunud@gmail.com</p>
+</div>
 
-							<div class="add-info">
-								<p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
-							</div>
-                        </td>
-                    </tr>
-                </table>
+<div class="add-info">
+<p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
+</div>
+</td>
+</tr>
+</table>
 
-			</div>
+</div>
 
-			<div class="announce">
+<div class="announce">
 
-				<div class="add-heading">
+<div class="add-heading">
 
-					<h2>Kuulutuse lisamine</h2>
+<h2>Kuulutuse lisamine</h2>
 
-				</div>
+</div>
 
-				<div class="add-fields">
+<div class="add-fields">
 
-					<div class="date">
+<div class="date">
 
-						<label for="date-input">Kadumise aeg</label>
+<label for="date-input">Kadumise aeg</label>
 
-						<input class="date-input" type="date"  name="lost-date" placeholder="Looma kadumise kuupäev...">
+<input class="date-input" type="date"  name="lost-date" placeholder="Looma kadumise kuupäev...">
 
-					</div>
+</div>
 
-					<div class="owner-contact">
+<div class="owner-contact">
 
-						<label for="owner-contact-input">Loomaomaniku telefon või e-post</label>
+<label for="owner-contact-input">Loomaomaniku telefon või e-post</label>
 
-						<input class="owner-contact-input" type="text" name="owner-contact" placeholder="Loomaomaniku kontaktivahend...">
+<input class="owner-contact-input" type="text"
+name="owner-contact" placeholder="Loomaomaniku kontaktivahend...">
 
+</div>
 
-					</div>
+<div class="add-info">
 
+<label for="add-info-input">Kadunud looma kirjeldus</label>
 
-					<div class="add-info">
+<input class="add-info-input" type="text-area"
+name="add-info" placeholder="Kirjelda kadunud looma...">
 
-						<label for="add-info-input">Kadunud looma kirjeldus</label>
+</div>
 
-						<input class="add-info-input" type="text-area" name="add-info" placeholder="Kirjelda kadunud looma...">
+<div class="add-img">
 
-					</div>
+<label for="add-img-input">Pilt kadunud loomast</label>
 
-					<div class="add-img">
+<input class="add-img-input" type="file" name="add-img" placeholder="Lisa pilt...">
 
-						<label for="add-img-input">Pilt kadunud loomast</label>
+</div>
 
-						<input class="add-img-input" type="file" name="add-img" placeholder="Lisa pilt...">
+<div class="add-button-container">
 
-					</div>
+<a href=""><div class="add-button">
+<p>Lisa kuulutus</p>
 
-					<div class="add-button-container">
+</div></a>
 
-						<a href=""><div class="add-button">
+</div>
 
-							<p>Lisa kuulutus</p>
+</div>
 
-						</div></a>
+</div>
 
-					</div>
+</div>
 
-				</div>
+</section>
 
-			</div>
-
-		</div>
-
-
-	</section>
-
-	<Fter />
+<Fter />
 </div>
 </template>
 
@@ -150,140 +152,140 @@ export default {
 
 <style scoped>
 
-	.lost-container {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	width: 100%;
-	margin-right: auto;
-	margin-left: 0;
+.lost-container {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+width: 100%;
+margin-right: auto;
+margin-left: 0;
 }
 
 .ads {
-	margin-top: 30px;
+margin-top: 30px;
 }
 
 .lost-add-container {
-	width: 360px;
-	height: 180px;
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 30px;
+width: 360px;
+height: 180px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
 }
 
 .add-text {
-	width: 180px;
+width: 180px;
 }
 
 .add-date, .add-contact {
-	margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .add-date, .add-contact, .add-info-t{
-	font-family: 'Krub', sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 18px;
-	margin-left: 10px;
+font-family: 'Krub', sans-serif;
+font-size: 14px;
+font-weight: normal;
+line-height: 18px;
+margin-left: 10px;
 }
 
 .lost-img-container {
-	height: 180px;
-	width: 180px;
+height: 180px;
+width: 180px;
 }
 
 .lost-img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
 
 .announce {
-	height: 1250px;
-	width: 60%;
-	margin-right: 0;
-	margin-left: auto;
+height: 1250px;
+width: 60%;
+margin-right: 0;
+margin-left: auto;
 }
 
 .add-heading {
-	width: 100%;
-	height: 110px;
-	display: flex;
-	align-items: center;
+width: 100%;
+height: 110px;
+display: flex;
+align-items: center;
 }
 
 .add-heading h2 {
-	font-family: 'Krub', sans-serif;
-	font-size: 36px;
-	font-weight: normal;
-	margin-left: 34px;
+font-family: 'Krub', sans-serif;
+font-size: 36px;
+font-weight: normal;
+margin-left: 34px;
 }
 
 .add-fields {
-	width: 100%;
-	height: 1100px;
-	background-color: #F3F2F2;
+width: 100%;
+height: 1100px;
+background-color: #F3F2F2;
 }
 
 .date, .owner-contact, .add-info, .add-img {
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	justify-content: space-around;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: 'Krub', sans-serif;
-	font-weight: normal;
+display: flex;
+flex-direction: column;
+width: 80%;
+justify-content: space-around;
+margin-right: auto;
+margin-left: auto;
+font-family: 'Krub', sans-serif;
+font-weight: normal;
 }
 
 .date label, .owner-contact label, .add-info label, .add-img label {
-	font-size: 18px;
-	margin-top: 60px;
-	padding-bottom: 10px;
-	color: #000;
-	width: 100%;
-	display: block;
+font-size: 18px;
+margin-top: 60px;
+padding-bottom: 10px;
+color: #000;
+width: 100%;
+display: block;
 }
 
 .date input, .owner-contact input {
-	line-height: 23px;
-	height: 65px;
-	border: solid 1px #5A5A5A;
+line-height: 23px;
+height: 65px;
+border: solid 1px #5A5A5A;
 }
 
 .add-info input {
-	line-height: 23px;
-	height: 260px;
-	border: solid 1px #5A5A5A;
+line-height: 23px;
+height: 260px;
+border: solid 1px #5A5A5A;
 }
 
 .add-button-container {
-	margin-top: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	display: flex;
-	justify-content: flex-end;
+margin-top: 60px;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+display: flex;
+justify-content: flex-end;
 }
 
 .add-button {
-	max-width: 30vw;
-	min-width: 200px;
-	height: 65px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #5b7851;
-	font-family: 'Krub', sans-serif;
-	font-weight: normal;
-	font-size: 24px;
-	border: solid 1px #ffffff;
-	filter: drop-shadow(0px 4px 4px #909090);
+max-width: 30vw;
+min-width: 200px;
+height: 65px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #5b7851;
+font-family: 'Krub', sans-serif;
+font-weight: normal;
+font-size: 24px;
+border: solid 1px #ffffff;
+filter: drop-shadow(0px 4px 4px #909090);
 }
 
 .add-button-container a{
-	text-decoration: none;
-	color: #fff;
+text-decoration: none;
+color: #fff;
 }
 
 </style>
