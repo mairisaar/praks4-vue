@@ -52,4 +52,12 @@ footer a {
   font-weight: bold;
 }
 
+@media screen and (max-width: 787px) {
+  
+  footer li {
+    display: block;
+    width: 100vw;
+  }
+}
+
 </style>

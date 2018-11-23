@@ -58,4 +58,15 @@ export default {
   background-size: cover;
 }
 
+@media only screen and (max-width: 480px) {
+  
+  .menu h1 {
+    max-width: 25%;
+  }
+
+  .nav {
+    max-width: 15%;
+  }
+}
+
 </style>

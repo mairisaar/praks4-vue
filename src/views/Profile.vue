@@ -90,4 +90,32 @@ export default {
 	font-size: 18px;
 	line-height: 22px;
 }
+
+@media screen and (max-width: 787px) {
+
+	.menu h1 {
+		max-width: 70vw;
+	}
+
+	.profile-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.profile-text-container {
+		width: 100%;
+	}
+
+	.profile-name {
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.menu h1 {
+		padding-right: 30px;
+	}
+}
 </style>

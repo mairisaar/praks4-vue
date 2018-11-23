@@ -74,4 +74,20 @@ margin-right: auto;
 margin-bottom: 30px;
 }
 
+@media screen and (max-width: 787px) {
+	.page-content h1 {
+		height: 220px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.menu h1 {
+
+	}
+
+	.page-content h1 {
+		height: 280px;
+	}
+}
 </style>

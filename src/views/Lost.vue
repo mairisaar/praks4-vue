@@ -23,7 +23,7 @@ src="../assets/1.jpg" alt="An image of lost pet."></td>
 <p>koer.kadunud@gmail.com</p>
 </div>
 
-<div class="add-info">
+<div class="add-info-t">
 <p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
 </div>
 </td>
@@ -42,7 +42,7 @@ src="../assets/1.jpg" alt="An image of lost pet."></td>
 <p>koer.kadunud@gmail.com</p>
 </div>
 
-<div class="add-info">
+<div class="add-info-t">
 <p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
 </div>
 </td>
@@ -62,7 +62,7 @@ alt="An image of lost pet."></td>
 <p>koer.kadunud@gmail.com</p>
 </div>
 
-<div class="add-info">
+<div class="add-info-t">
 <p>Tartus Tammelinnas kadunud isane tumepruun labradori tõugu kutsikas.</p>
 </div>
 </td>
@@ -286,6 +286,43 @@ filter: drop-shadow(0px 4px 4px #909090);
 .add-button-container a{
 text-decoration: none;
 color: #fff;
+}
+
+@media screen and (max-width: 787px) {
+	
+	.menu h1 {
+		max-width: 70vw;
+	}
+
+	.lost-container {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.announce {
+	height: 1110px;
+	min-width: 80vw;
+	max-width: 100%;
+	margin-left: 0;
+	margin-top: 100px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.menu h1 {
+		padding-right: 30px;
+
+	}
+
+	.add-fields {
+		height: 1140px;
+	}
+
+	.announce {
+		height: 1180px;
+	}
 }
 
 </style>

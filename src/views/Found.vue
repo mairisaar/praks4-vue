@@ -165,4 +165,35 @@ export default {
   color: #000;
 }
 
+@media screen and (max-width: 787px) {
+  
+.found-c {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  }
+
+  .found-info {
+    width: 100%;
+  }
+
+  .found-img-container, .found-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu h1 {
+    max-width: 70vw;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .menu h1 {
+    padding-right: 30px;
+  }
+
+}
+
 </style>
