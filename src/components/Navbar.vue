@@ -46,13 +46,18 @@ export default {
   background-color: #5b7851;
 }
 
+nav {
+  height: 60px;
+  max-width: 60%;
+}
+
 @media only screen and (max-width: 480px) {
   
   .menu h1 {
-    max-width: 85%;
+    max-width: 80%;
   }
 
-  .nav {
+  nav {
     max-width: 15%;
   }
 }
